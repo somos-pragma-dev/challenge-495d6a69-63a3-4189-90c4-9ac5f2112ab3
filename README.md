@@ -1,6 +1,6 @@
-# Desarrollo de componentes accesibles con Angular y Material Design
+# Implementación de componentes accesibles en Angular
 
-El sistema debe permitir la creación de componentes de interfaz de usuario que sean accesibles y utilicen el Material Design System. Los componentes deben ser reutilizables y adaptables a diferentes contextos de la aplicación. Los componentes deben manejar adecuadamente las interacciones del usuario y proporcionar retroalimentación apropiada. El sistema debe ser capaz de adaptarse a diferentes dispositivos y tamaños de pantalla, asegurando una experiencia de usuario consistente.
+El equipo de desarrollo necesita crear componentes de interfaz de usuario accesibles para usuarios con discapacidades visuales en una aplicación financiera. El objetivo es utilizar Angular y Material Design System para garantizar que los componentes sean compatibles con lectores de pantalla y sigan las mejores prácticas de accesibilidad.
 
 ## Informacion General
 
@@ -38,86 +38,85 @@ El sistema debe permitir la creación de componentes de interfaz de usuario que 
 
 </details>
 
-### Fase 1: Definición de requerimientos y diseño de componentes
+### Fase 1: Configuración del entorno de desarrollo
 
-**Objetivo:** Identificar los componentes necesarios y diseñar su estructura y comportamiento.
-
-**Tiempo estimado:** 2 horas
-
-**Instrucciones:**
-
-- Enumerar los componentes de interfaz de usuario que se necesitan en la aplicación.
-- Definir las propiedades y comportamientos de cada componente.
-- Diseñar la estructura y el estilo de cada componente utilizando el Material Design System.
-
-**Entregable:** Documento de diseño de componentes que incluye la estructura, estilo y comportamiento de cada componente.
-
-<details>
-<summary>Pistas de conocimiento</summary>
-
-- Considera la accesibilidad en el diseño de los componentes.
-- Utiliza el Material Design System para guiar el diseño de los componentes.
-
-</details>
-
-### Fase 2: Implementación de componentes
-
-**Objetivo:** Implementar los componentes diseñados en la fase anterior.
-
-**Tiempo estimado:** 4 horas
-
-**Instrucciones:**
-
-- Crear los componentes de interfaz de usuario utilizando Angular.
-- Asegurar que los componentes sean reutilizables y adaptables a diferentes contextos.
-- Implementar las interacciones del usuario y proporcionar retroalimentación apropiada.
-
-**Entregable:** Código fuente de los componentes implementados.
-
-<details>
-<summary>Pistas de conocimiento</summary>
-
-- Utiliza las mejores prácticas de Angular para implementar los componentes.
-- Asegura que los componentes sean accesibles y sigan las guías de Material Design.
-
-</details>
-
-### Fase 3: Pruebas y optimización de componentes
-
-**Objetivo:** Realizar pruebas y optimizar los componentes implementados.
+**Objetivo:** Preparar el entorno de desarrollo para utilizar Angular y Material Design System.
 
 **Tiempo estimado:** 2 horas
 
 **Instrucciones:**
 
-- Realizar pruebas de los componentes para asegurar que funcionan correctamente.
-- Optimizar los componentes para mejorar su rendimiento y accesibilidad.
-- Asegurar que los componentes sean adaptables a diferentes dispositivos y tamaños de pantalla.
+- Configurar un proyecto de Angular.
+- Instalar y configurar Material Design System en el proyecto.
+- Verificar que el entorno de desarrollo esté listo para el desarrollo de componentes.
 
-**Entregable:** Informe de pruebas y optimización de los componentes.
+**Entregable:** Proyecto de Angular configurado con Material Design System.
 
 <details>
 <summary>Pistas de conocimiento</summary>
 
-- Utiliza herramientas de prueba y optimización para evaluar los componentes.
-- Asegura que los componentes sigan siendo accesibles y sigan las guías de Material Design después de las optimizaciones.
+- Utilizar herramientas de línea de comando para configurar el proyecto.
+- Consultar la documentación oficial de Angular y Material Design System.
+
+</details>
+
+### Fase 2: Creación de un componente accesible
+
+**Objetivo:** Crear un componente de botón accesible utilizando Angular y Material Design System.
+
+**Tiempo estimado:** 3 horas
+
+**Instrucciones:**
+
+- Crear un componente de botón en Angular.
+- Aplicar las mejores prácticas de accesibilidad al componente.
+- Verificar que el componente sea compatible con lectores de pantalla.
+
+**Entregable:** Componente de botón accesible en Angular.
+
+<details>
+<summary>Pistas de conocimiento</summary>
+
+- Consultar la documentación de Material Design System para componentes accesibles.
+- Utilizar atributos ARIA para mejorar la accesibilidad del componente.
+
+</details>
+
+### Fase 3: Pruebas de accesibilidad
+
+**Objetivo:** Realizar pruebas de accesibilidad en el componente de botón.
+
+**Tiempo estimado:** 3 horas
+
+**Instrucciones:**
+
+- Utilizar herramientas de pruebas de accesibilidad para evaluar el componente de botón.
+- Identificar y corregir problemas de accesibilidad encontrados.
+- Documentar los resultados de las pruebas.
+
+**Entregable:** Informe de pruebas de accesibilidad del componente de botón.
+
+<details>
+<summary>Pistas de conocimiento</summary>
+
+- Utilizar herramientas como Lighthouse o Axe para realizar pruebas de accesibilidad.
+- Consultar guías de accesibilidad para identificar problemas comunes.
 
 </details>
 
 ## Dimensiones Evaluadas
 
-- **queEs**: ¿Qué son los componentes de interfaz de usuario y por qué son importantes en una aplicación?
-- **paraQueSirve**: ¿Para qué sirven los componentes de interfaz de usuario en una aplicación?
-- **comoSeUsa**: ¿Cómo se utilizan los componentes de interfaz de usuario en una aplicación?
-- **erroresComunes**: ¿Cuáles son los errores comunes al implementar componentes de interfaz de usuario?
-- **queDecisionesImplica**: ¿Qué decisiones implica el diseño y la implementación de componentes de interfaz de usuario?
+- **queEs**: ¿Qué es un componente accesible y por qué es importante en el desarrollo de aplicaciones financieras?
+- **paraQueSirve**: ¿Para qué sirve utilizar Material Design System en el desarrollo de componentes accesibles?
+- **comoSeUsa**: ¿Cómo se aplican las mejores prácticas de accesibilidad en un componente de botón en Angular?
+- **erroresComunes**: ¿Cuáles son los errores comunes de accesibilidad en componentes de interfaz de usuario y cómo se pueden corregir?
+- **queDecisionesImplica**: ¿Qué decisiones implica la elección de herramientas de pruebas de accesibilidad y la documentación de los resultados?
 
 ## Criterios de Evaluacion
 
-- Identificación correcta de los componentes necesarios.
-- Diseño adecuado de la estructura y el estilo de los componentes.
-- Implementación correcta de los componentes utilizando Angular.
-- Pruebas y optimización adecuadas de los componentes.
+- Configurar correctamente el entorno de desarrollo con Angular y Material Design System.
+- Crear un componente de botón accesible siguiendo las mejores prácticas de accesibilidad.
+- Realizar pruebas de accesibilidad y documentar los resultados.
 
 ## Como trabajar con un asistente de IA
 
